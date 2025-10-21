@@ -34,11 +34,24 @@ public class App {
         if (ika == 100) {
             System.out.println("Onnea 100-vuotispäivästä");
         }
+
+        // Tasavuosikymmenet
+        if (ika == 20) {
+            System.out.println("Onnea 20-vuotispäivästä");
+        } else if (ika == 30) {
+            System.out.println("Onnea 30-vuotispäivästä!");
+        } else if (ika >= 40 && ika <= 50) {
+            System.out.println("Hyvää keski-ikää");
+        }
     }
-}          
+}
+    
+      
     
   
            
             
            
             
+    
+
