@@ -17,9 +17,14 @@ public class App {
             if (ika == 18) {
                 System.out.println("Olet täysiikäinen ja voit ajaa autoa");
             }
-        }    
+
+        } else if (ika >= 65) {
+            System.out.println("Olet eläkeläinen");
+        }
     }
-}    
+}          
+    
+  
            
             
            
