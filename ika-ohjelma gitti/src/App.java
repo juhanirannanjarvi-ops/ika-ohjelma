@@ -21,6 +21,19 @@ public class App {
         } else if (ika >= 65) {
             System.out.println("Olet eläkeläinen");
         }
+
+        // Erilliset tarkistukset
+        if (ika == 65) {
+            System.out.println("Hyviä eläkepäiviä");
+        }
+
+        if (ika == 58) {
+            System.out.println("Voit mennä varhaiseläkkeelle");
+        }
+
+        if (ika == 100) {
+            System.out.println("Onnea 100-vuotispäivästä");
+        }
     }
 }          
     
